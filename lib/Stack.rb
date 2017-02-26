@@ -1,6 +1,6 @@
 
-# this class uses an array to act like a stack - so it limits the built in methods you can use
-# you only want to use certain functions of array - theys functions are included in the class
+# this class uses an array to create a stack 
+# you only want to use certain functions of an array with a stack - this class includes those functions
 class Stack
   def initialize
     @store = Array.new
