@@ -10,7 +10,7 @@ class Stack
     @store.push(element)
   end
 
-  # the last item in the array is the top ...
+  # the last item in the array is the top of the stack
   def pop
     # pop will remove the last item in an array
     @store.pop
@@ -28,9 +28,6 @@ class Stack
     @store.empty?
   end
 
-  # we make our array to string to
-  # help encapsulate this array (cause it is really a stack)
-  # also going to use with tests.
   def to_s
     return @store.to_s
   end
